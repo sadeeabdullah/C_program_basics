@@ -5,4 +5,6 @@ int main(){
     scanf("%d",&a);
 
     a > 7? printf("ok"):printf("not ok");
+
+    return 0;
 }
