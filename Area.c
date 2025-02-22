@@ -4,7 +4,7 @@ int main(){
     printf("Enter the value of side:");
     scanf("%d",&side);
 
-    printf("Area is:%d m",side*side);
+    printf("Area is:%d ",side*side);
 
     return 0;
 }
