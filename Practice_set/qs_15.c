@@ -9,11 +9,18 @@ int main(){
     printf("enter the value of n:");
     scanf("%d",&n);
 
-    for (int i = 0; i <=n; i++)
+    for (int i = 1; i <=n; i++)
     {
-        sum=sum+1;
+        sum=sum+i;
     }
 
     printf("%d",sum);
+
+    for (int i = n; i >=1; i--)
+    {
+        printf("%d\n",i);
+    }
+    
+    return 0;
     
 }
